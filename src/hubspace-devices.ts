@@ -51,5 +51,19 @@ export const Devices: DeviceDef[] = [
                 characteristic: FunctionCharacteristic.Power
             }
         ]
+    },
+    {
+        deviceClass: 'water-timer',
+        deviceType: DeviceType.WaterTimer,
+        functions: [
+            {
+                functionClass: 'power',
+                characteristic: FunctionCharacteristic.Power
+            },
+            {
+                functionClass: 'toggle',
+                characteristic: FunctionCharacteristic.Power
+            },
+        ]
     }
 ];
